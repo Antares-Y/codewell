@@ -1,0 +1,193 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin sans', sans-serif;
+}
+
+.main
+{
+    padding: 2rem 100px 2rem;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul
+{
+    display: inline-flex;
+}
+
+ul li
+{
+    list-style: none;
+    margin: 0 1rem 0;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: rgb(70, 65, 65);
+    font-size: 18px;
+}
+
+ul li a span
+{
+    padding: 15px 20px;
+    background-color: rgb(67, 33, 105);
+    color: white;
+    border-radius: 5px;
+}
+
+.right-most
+{
+    display: none;
+}
+.right-most i
+{
+    font-size: 30px;
+}
+.container
+{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .line
+{
+    padding: 10px 20px;
+    background-color: rgb(67, 33, 105);
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.container a
+{
+    color: white;
+}
+
+.container-inside-1 h1
+{
+    font-size: 50px;
+    color: rgb(67, 33, 105);
+    margin-top: 2rem;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.container-inside-1 p
+{
+    color: rgb(70, 65, 65);
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.container-inside-1 .sth input
+{
+    margin-top: 1rem;
+    padding: 10px 0;
+    width: 400px;
+    opacity: 3;
+    margin-left: 0;
+    font-size: 18px;
+    border: 1px solid rgb(184, 175, 175);
+    border-radius: 5px;
+    color: rgb(175, 165, 165);
+}
+
+.container-inside-2 img
+{
+    width: 300px;
+}
+
+.sth a
+{
+    text-decoration: none;
+    background-color: rgb(67, 33, 105);
+    margin-left: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.final p
+{
+    color: rgb(70, 65, 65);
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.logos img
+{
+    margin-right: 5px;
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 1050px)
+{
+    .container-inside-1 h1, .container-inside-1 p
+    {
+        text-align: center;
+    }
+    .container-inside-2
+    {
+        display: none;
+    }
+    .sth
+    {
+        text-align: center;
+    }
+    .right
+    {
+        display: none;
+    }
+    .right-most
+    {
+        display: block;
+    }
+    .container-inside-1
+    {
+        text-align: center;
+    }
+}
+/* 
+@media (max-width: 750px)
+{
+    .container-inside-1 .sth input
+    {
+        width: 300px;
+    } */
+
+
+@media (max-width: 640px)
+{
+    .container-inside-1 .sth input
+    {
+        display: block;
+    }
+
+    .container-inside-1 .sth a
+    {
+        display: block;
+        margin: 20px 0 10px;
+    }
+}
+
+
+
+@media (max-width: 480px)
+{
+    .main
+    {
+        padding: 2rem 50px 2rem;
+    }
+}
